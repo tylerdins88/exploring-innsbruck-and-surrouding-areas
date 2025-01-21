@@ -1,13 +1,11 @@
 <template>
-  <div class="lineUp">
-    <div class="resortFrame">
-      <div class="resortContent">
-        <h1 v-html="resort.name"></h1>
-        <p v-html="resort.description"></p>
-        <img class="resortMap" :src="resort.map" alt="Updates Map" />
-      </div>
+  <router-link :to="`/resorts/${resort.name}`" class="resortFrame">
+    <div class="resortContent">
+      <h1 v-html="resort.name"></h1>
+      <p v-html="resort.description"></p>
+      <img class="resortMap" :src="resort.map" alt="Updates Map" />
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -20,7 +18,7 @@ export default {
 
 <style scoped>
 .resortFrame {
-  border: 1px solid #006db0;
+  border: 1px solid #b00000;
   border-radius: 15px;
   padding: 16px;
   width: 80%;
@@ -30,9 +28,11 @@ export default {
   text-align: center;
   align-items: center;
   justify-content: center;
+  text-decoration: none; /* Remove default link underline */
+  color: black; /* Ensure text remains black */
 }
 .resortFrame:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 109, 176), 0 12px 40px 0 rgba(0, 109, 176);
+  box-shadow: 0 8px 16px 0 rgba(176, 0, 0), 0 12px 40px 0 rgba(176, 0, 0);
   transform: scale(1.01);
   transition: box-shadow 0.3s, transform 0.3s;
 }
@@ -40,11 +40,12 @@ export default {
 .resortMap {
   height: 300px;
   width: auto;
-  border: 1px solid #006db0;
+  border: 1px solid #b00000;
 }
 .resortFrame a:hover {
   background-color: silver;
 }
+
 @media screen and (max-width: 1040px) {
   .resortMap {
     max-height: 200px; /* Adjust height for smaller screens */
