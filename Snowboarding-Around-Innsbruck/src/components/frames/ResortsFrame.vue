@@ -2,9 +2,10 @@
   <div class="lineUp">
     <div class="resortFrame">
       <div class="resortContent">
-        <div v-html="resort.name"></div>
+        <h1 v-html="resort.name"></h1>
+        <p v-html="resort.description"></p>
+        <img class="resortMap" :src="resort.map" alt="Updates Map" />
       </div>
-      <img class="resortMap" :src="resort.map" alt="Updates Map" />
     </div>
   </div>
 </template>
@@ -18,14 +19,6 @@ export default {
 </script>
 
 <style scoped>
-.lineUp {
-  display: flex;
-}
-.date {
-  height: 30px;
-  font-size: 16px;
-  border-bottom: 1px solid #006db0;
-}
 .resortFrame {
   border: 1px solid #006db0;
   border-radius: 15px;
@@ -42,12 +35,6 @@ export default {
   box-shadow: 0 8px 16px 0 rgba(0, 109, 176), 0 12px 40px 0 rgba(0, 109, 176);
   transform: scale(1.01);
   transition: box-shadow 0.3s, transform 0.3s;
-}
-.resortContent {
-  display: flex;
-  text-align: left;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #006db0;
 }
 
 .resortMap {
