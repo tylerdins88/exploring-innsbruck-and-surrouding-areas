@@ -15,10 +15,11 @@
       a overall synopsis of the resort including recommend skill levels.
     </p>
     <p>
-      For the travel routes, I will start them based from the Innsbruck
-      Hauptbahnhof. Hauptbahnhof is German for "main station". Meaning all
-      routes are starting at the main bus & train station in the city of
-      Innsbruck.
+      My starting point for my routes is described at the end of the travel
+      section. Please be sure to understand this and adjust accordingly to where
+      you are located. I will try to include the Innsbruck Hauptbahnhof in as
+      many routes as possible. Or add a tidbit of how to get from there
+      Hauptbahnhof to where I am going.
     </p>
   </div>
   <resort-frame :resort="resort[0]" v-if="resort.length > 0" />
@@ -41,6 +42,8 @@ export default {
       resort: [
         {
           name: "Patscherkofel",
+          description:
+            "Patscherkofel is one of two closest resorts to Innsbruck. It is located to the south of the town. You can take bus directly from the Tivoli Stadion to within a minute walk of the Gondola.",
           map: PatscherkofelMap,
         },
         {
