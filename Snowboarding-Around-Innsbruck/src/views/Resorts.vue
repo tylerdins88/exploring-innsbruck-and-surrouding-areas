@@ -1,36 +1,42 @@
 <template>
-  <div>
-    <h1>Snow Resorts</h1>
-    <p>
+  <div class="max-w-7xl mx-auto p-6">
+    <h1 class="text-4xl font-bold text-center mb-6 text-gray-800">
+      Snow Resorts
+    </h1>
+
+    <p class="text-lg text-gray-700 mb-4">
       This page will describe the different snow resorts I have visited in
       Austria. I purchased a Tirol Snow card which gives you access to over 90
       places to visit! We call them snow resorts because of the various
       activities you can do at them. Snowboarding, Skiing, Tobogganing, and
       more!
     </p>
-    <p>
+    <p class="text-lg text-gray-700 mb-6">
       Discussed here will be the best ways to access them. Prices of the places.
-      A map of the resorts and an explanation of the terrain. Ill give a review
-      of the food that I tried and which hut you can find it at. Lastly will be
-      a overall synopsis of the resort including recommend skill levels.
+      A map of the resorts and an explanation of the terrain. I'll give a review
+      of the food that I tried and which hut you can find it at. Lastly, there will be
+      an overall synopsis of the resort including recommended skill levels.
     </p>
-    <p>
+    <p class="text-lg text-gray-700 mb-8">
       My starting point for my routes is described at the end of the travel
       section. Please be sure to understand this and adjust accordingly to where
       you are located. I will try to include the Innsbruck Hauptbahnhof in as
       many routes as possible. Or add a tidbit of how to get from there
       Hauptbahnhof to where I am going.
     </p>
+
+    <!-- Dynamically generate ResortFrame for each resort -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div v-for="resort in resortList" :key="resort.name">
+        <resort-frame :resort="resort" />
+      </div>
+    </div>
   </div>
-  <resort-frame :resort="resort[0]" v-if="resort.length > 0" />
-  <resort-frame :resort="resort[1]" v-if="resort.length > 1" />
 </template>
 
 <script>
 import ResortFrame from "../components/frames/ResortsFrame.vue";
-
-import PatscherkofelMap from "../assets/resort-maps/patscherkofel-resort.jpg";
-import AlpbachtalMap from "../assets/resort-maps/alpbachtal-resort.jpg";
+import resorts from "@/data/resorts.js"; // Import the resorts data
 
 export default {
   name: "Resorts",
@@ -39,23 +45,12 @@ export default {
   },
   data() {
     return {
-      resort: [
-        {
-          name: "Patscherkofel",
-          description:
-            "Patscherkofel is one of two closest resorts to Innsbruck. It is located to the south of the town. You can take bus directly from the Tivoli Stadion to within a minute walk of the Gondola.",
-          map: PatscherkofelMap,
-          price: "49 Euro",
-          openinghours: "Patscherkofelbahn Daily from 8:30 a.m. to 4:00 p.m.",
-          nightski:
-            "Evening skiing every Tuesday and Thursday until 6:30 p.m. on the Heiligwasser piste.",
-        },
-        {
-          name: "Alpbachtal",
-          map: AlpbachtalMap,
-        },
-      ],
+      resortList: Object.values(resorts), // Convert the object into an array
     };
   },
 };
 </script>
+
+<style scoped>
+/* Additional styling space */
+</style>
