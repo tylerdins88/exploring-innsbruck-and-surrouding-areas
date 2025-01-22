@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import austriaFlag from "./assets/austria-flag-map.jpg";
+import CustomNavbar from "@/components/Navbar.vue"
 </script>
 
 <template>
@@ -10,11 +11,12 @@ import austriaFlag from "./assets/austria-flag-map.jpg";
   <div class="austria-flag">
     <div class="container">
       <nav class="navbar">
-        <router-link to="/">Home</router-link>
+        <CustomNavbar />
+        <!-- <router-link to="/">Home</router-link>
         <router-link to="/travel">Travel</router-link>
         <router-link to="/resorts">Snow Resorts</router-link>
         <router-link to="/places">Hotspots</router-link>
-        <router-link to="/accommodations">Accommodations</router-link>
+        <router-link to="/accommodations">Accommodations</router-link> -->
       </nav>
       <router-view />
     </div>
