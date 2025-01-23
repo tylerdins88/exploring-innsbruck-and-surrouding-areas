@@ -7,9 +7,9 @@
         {{ resortData.description }}
       </p>
 
-      <div v-if="resortData.map" class="mb-6">
+      <div v-if="resortData.resortmap" class="mb-6">
         <img 
-          :src="resortData.map" 
+          :src="resortData.resortmap" 
           :alt="`Map of ${resortData.name}`" 
           class="w-full h-auto rounded-lg shadow-md cursor-pointer"
           @click="showModal = true"
@@ -42,7 +42,7 @@
           ✕
         </button>
         <img 
-          :src="resortData.map" 
+          :src="resortData.resortmap" 
           :alt="`Map of ${resortData.name}`" 
           class="w-full h-auto rounded-lg"
         />

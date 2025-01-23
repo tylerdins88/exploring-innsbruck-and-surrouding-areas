@@ -1,11 +1,7 @@
-<script setup>
-import CustomNavbar from "@/components/Navbar.vue";
-</script>
-
 <template>
   <div class="min-h-screen flex flex-col">
     <!-- Navbar -->
-    <header class="w-full bg-gray-800 text-white shadow">
+    <header class="w-full text-white shadow">
       <CustomNavbar />
     </header>
 
@@ -20,6 +16,10 @@ import CustomNavbar from "@/components/Navbar.vue";
     </footer>
   </div>
 </template>
+
+<script setup>
+import CustomNavbar from "@/components/Navbar.vue";
+</script>
 
 <style scoped>
 /* Add global overrides or additional styles here if needed */
