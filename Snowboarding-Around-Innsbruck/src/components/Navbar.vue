@@ -1,7 +1,7 @@
 <template>
-  <div class="flex justify-center items-center bg-neutral-50">
+  <div class="flex justify-center items-center">
     <!-- Container for the flag and navbar -->
-    <div class="relative w-3/4 max-w-4xl">
+    <div class="relative w-1/2 max-w-4xl">
       <!-- Austrian Flag -->
       <img
         src="@/assets/austria-flag-map.jpg"
@@ -11,7 +11,7 @@
 
       <!-- Navbar -->
       <div class="absolute inset-0 flex items-center justify-center ">
-        <fwb-navbar class="bg-gray-100 bg-opacity-80 p-4">
+        <fwb-navbar class="bg-gray-200 bg-opacity-70 p-4">
           <template #default="{ isShowMenu }">
             <fwb-navbar-collapse :is-show-menu="isShowMenu" class="flex space-x-4">
               <fwb-navbar-link
