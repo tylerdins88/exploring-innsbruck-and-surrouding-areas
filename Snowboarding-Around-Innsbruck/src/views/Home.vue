@@ -97,7 +97,3 @@ export default {
 <style scoped>
 /* Additional Styling */
 </style>
-
-<script setup>
-import CustomNavbar from "@/components/Navbar.vue";
-</script>
