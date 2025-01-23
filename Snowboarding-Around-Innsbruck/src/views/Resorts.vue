@@ -14,8 +14,9 @@
     <p class="text-lg text-gray-700 mb-6">
       Discussed here will be the best ways to access them. Prices of the places.
       A map of the resorts and an explanation of the terrain. I'll give a review
-      of the food that I tried and which hut you can find it at. Lastly, there will be
-      an overall synopsis of the resort including recommended skill levels.
+      of the food that I tried and which hut you can find it at. Lastly, there
+      will be an overall synopsis of the resort including recommended skill
+      levels.
     </p>
     <p class="text-lg text-gray-700 mb-8">
       My starting point for my routes is described at the end of the travel
@@ -23,6 +24,11 @@
       you are located. I will try to include the Innsbruck Hauptbahnhof in as
       many routes as possible. Or add a tidbit of how to get from there
       Hauptbahnhof to where I am going.
+    </p>
+    <p class="text-lg text-gray-700 mb-8">
+      All prices listed will be for an Adult Full Day lift ticket. All times
+      listed will be in the 24:00 hour clock. This is standard in many parts of
+      Austria.
     </p>
 
     <!-- Dynamically generate ResortFrame for each resort -->

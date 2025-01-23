@@ -9,7 +9,7 @@
       <p class="text-gray-600 text-sm mb-4" v-html="resort.description"></p>
       <img
         class="resortMap h-72 w-auto border border-red-700"
-        :src="resort.map"
+        :src="resort.resortmap"
         :alt="`${resort.name} map`"
       />
     </div>
