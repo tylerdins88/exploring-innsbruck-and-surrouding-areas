@@ -6,6 +6,10 @@ import AlpbachtalResort from "@/assets/resort-maps/alpbachtal-resort.jpg";
 import AlpbachtalDirections from "@/assets/bus-route-directions/alpbachtal-bus-route-directions.png";
 import AlpbachtalRouteMap from "@/assets/bus-route-maps/alpbachtal-bus-route-map.png"
 
+import IschglResort from "@/assets/resort-maps/ischgl-resort.jpg";
+import IschglDirections from "@/assets/bus-route-directions/ischgl-bus-route-directions.png";
+import IschglRouteMap from "@/assets/bus-route-maps/ischgl-bus-route-map.png";
+
 export default {
 	Patscherkofel: {
 		name: "Patscherkofel",
@@ -29,9 +33,141 @@ export default {
 		routemap: AlpbachtalRouteMap,
 		resortmap: AlpbachtalResort,
 		price: "66 Euro",
-		openinghours: "Ski Juwel is open daily from 8:30 a.m. to 4:00 p.m. A few lifts will run to 4:00 p.m.",
+		openinghours: "Ski Juwel is open daily from 8:30 a.m. to 4:00 p.m. A few lifts will run to 4:15 p.m.",
 		nightski: "The Reither Kogel lift offers night skiing from 18:30 to 21:15 on Thursday and Fridays. This is from Dec 26th, 2024 to Feb 28th, 2025.",
 		website: "https://www.skijuwel.com/en"
+	},
+	IschglSilvrettaArena: {
+		name: "Ischgl - Silvretta Arena",
+		description: "Ischgl ski resort in the Silvretta mountains of western Tyrol is one of Austria's most popular snow holiday destinations. Situated on the frontier with Switzerland, Ischgl is interlinked with Samnaun ski resort to create a huge & diverse ski area of over 239km of trails & 46 modern ski lifts.",
+		directions: IschglDirections,
+		explaination: "Need Directions Explaination",
+		routemap: IschglRouteMap,
+		resortmap: IschglResort,
+		price: "76 Euro",
+		openinghours: "Ischgl Daily from 8:30 a.m. to 4:00 p.m.",
+		nightski: "Ischgl does not offer Night Ski",
+		website: "https://www.ischgl.com/en/winter"
+	},
+	Glungezer: {
+		name: "Glungezer",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "https://www.glungezerbahn.at/en/"
+	},
+	Hochfugen: {
+		name: "Hochfugen",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "Need to Add Website"
+	},
+	ZillertalArenaGerlos: {
+		name: "Zillertal Arena / Gerlos",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "https://www.zillertalarena.com/en/winter/"
+	},
+	Schlick: {
+		name: "Schlick 2000",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "https://www.stubai.at/en/skiing-resorts/schlick2000/"
+	},
+	StubairGletscher: {
+		name: "Stubaier Gletscher",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "https://www.stubaier-gletscher.com/en/"
+	},
+	Seefeld: {
+		name: "Need Resort Name",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "Need to Add Website"
+	},
+	Axams: {
+		name: "Need Resort Name",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "Need to Add Website"
+	},
+	Nordkette: {
+		name: "Need Resort Name",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "Need to Add Website"
+	},
+	MayrhofenTux: {
+		name: "Need Resort Name",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "Need to Add Website"
+	},
+	Soeldon: {
+		name: "Need Resort Name",
+		description: "Need Description of Resort",
+		directions: "Need Directions Photo",
+		explaination: "Need Directions Explaination",
+		routemap: "Need Route Map",
+		resortmap: "Need Resort Map",
+		price: "Need Price Info",
+		openinghours: "Need Opening Hours",
+		nightski: "Need Night Ski",
+		website: "Need to Add Website"
 	},
 	NameNeeded: {
 		name: "Need Resort Name",
