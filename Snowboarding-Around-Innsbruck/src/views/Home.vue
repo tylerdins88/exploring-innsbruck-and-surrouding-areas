@@ -1,13 +1,17 @@
 <template>
-   <div class="bg-gray-50 min-h-screen">
+  <div class="bg-gray-50 min-h-screen">
     <!-- Hero Section -->
     <div
       class="relative bg-cover bg-center h-96 flex items-center justify-center"
-      style="background-image: url('@/assets/austria-snow.jpg');"
+      style="background-image: url('@/assets/austria-snow.jpg')"
     >
       <!-- Text Content -->
-      <div class="text-center text-white bg-opacity-80 bg-black py-8 px-6 rounded-lg shadow-lg max-w-3xl">
-        <h1 class="text-4xl font-extrabold sm:text-5xl md:text-6xl mb-4 tracking-tight">
+      <div
+        class="text-center text-white bg-opacity-80 bg-black py-8 px-6 rounded-lg shadow-lg max-w-3xl"
+      >
+        <h1
+          class="text-4xl font-extrabold sm:text-5xl md:text-6xl mb-4 tracking-tight"
+        >
           Snowboarding in Austria
         </h1>
         <p class="text-lg sm:text-xl md:text-2xl font-light mb-6">
@@ -25,12 +29,15 @@
     <!-- Welcome Section -->
     <section class="max-w-5xl mx-auto px-6 py-12">
       <div class="relative text-center mb-8">
-        <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-48 h-48 bg-gradient-to-r from-blue-100 to-blue-300 rounded-full opacity-50"></div>
+        <div
+          class="absolute -top-10 left-1/2 transform -translate-x-1/2 w-48 h-48 bg-gradient-to-r from-blue-100 to-blue-300 rounded-full opacity-50"
+        ></div>
         <h2 class="relative text-3xl font-bold text-gray-800 mb-4">
           Welcome to Innsbruck
         </h2>
         <p class="relative text-gray-600 text-lg">
-          A winter paradise for snow enthusiasts. Discover the best places to snowboard, ski, or enjoy the beauty of the Tyrolean Alps.
+          A winter paradise for snow enthusiasts. Discover the best places to
+          snowboard, ski, or enjoy the beauty of the Tyrolean Alps.
         </p>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
@@ -86,7 +93,7 @@
 
         <!-- Hot Spots Card -->
         <router-link
-          to="/places"
+          to="/hotspots"
           class="group flex flex-col items-center text-center bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105 hover:shadow-xl"
         >
           <div class="bg-red-500 w-full py-4 rounded-t-lg">
@@ -94,8 +101,8 @@
           </div>
           <div class="px-4 py-6">
             <p class="text-gray-600">
-              Discover the best restaurants, pubs, music venues, and more. Explore
-              the vibrant culture of Innsbruck.
+              Discover the best restaurants, pubs, music venues, and more.
+              Explore the vibrant culture of Innsbruck.
             </p>
           </div>
         </router-link>
@@ -110,8 +117,8 @@
           </div>
           <div class="px-4 py-6">
             <p class="text-gray-600">
-              Honest reviews of places to stay, including pricing, amenities, and
-              parking details.
+              Honest reviews of places to stay, including pricing, amenities,
+              and parking details.
             </p>
           </div>
         </router-link>
