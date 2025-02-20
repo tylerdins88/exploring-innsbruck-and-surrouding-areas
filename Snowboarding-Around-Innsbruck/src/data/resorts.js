@@ -167,7 +167,7 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "https://www.soelden.com/en"
 	},
 	NameNeeded: {
 		name: "Need Resort Name",
