@@ -6,7 +6,10 @@
     <div class="prose max-w-none text-gray-700">
       <p class="prose max-w-none text-gray-700 font-bold">
         Add tips for understanding what to do. Consider adding phone plan
-        information?
+        information? Add in somewhere to have euro coins to use public
+        bathrooms. Grocery stores not open sunday, except main bus station. Talk
+        about lockers at bus stations or contacting places about luggage
+        storage.
       </p>
       <p>
         Welcome to the Travel Guidance page. I will explain the travel apps I
@@ -16,8 +19,7 @@
         stations with tips for using the bus system.
       </p>
       <p class="prose max-w-none text-gray-700 font-bold">
-        First thing I will describe is recommended apps to have for travel: OBB
-        Tickets, bergfex Ski, Omio, and Hotels Tonight.
+        First thing I will describe is recommended apps to have for travel:
       </p>
     </div>
 
@@ -47,7 +49,8 @@
         Germany. Munich is the closest & largest international airport to
         Innsbruck. To get from the airport to Innsbruck, I used the Omio app.
         Below is an example of my search and the trip I chose to take. This cost
-        $77.
+        $77. Please be aware of transfers and knowing where to be. This route
+        here I had to transfer between my arrival and departure platforms.
       </p>
     </div>
     <div class="flex flex-wrap gap-4 justify-center">
@@ -70,9 +73,10 @@
       </h2>
       <p class="prose max-w-none text-gray-700 font-normal">
         Hauptbahnhof, meaning "main station," has been operating since 1853 and
-        is one of Austria's oldest and busiest stations. Below you will see a
-        photo of the inside of the main station and a layout of the building.
-        Pay attention to which station area your train will leave from.
+        is one of Austria's oldest and busiest stations. This is both the main
+        station for the bus and the trains. Below you will see a photo of the
+        inside of the main station and a layout of the building. Pay attention
+        to which station area your train will leave from.
       </p>
     </div>
     <div class="flex flex-wrap gap-4 justify-center">
@@ -173,6 +177,9 @@ import obbAppImage from "@/assets/travel-photos/obb-app.png";
 import bergfexAppImage from "@/assets/travel-photos/bergfex-app.png";
 import omioAppImage from "@/assets/travel-photos/omio-app.png";
 import hotelsTonightImage from "@/assets/travel-photos/hotels-tonight.png";
+import windyAppImage from "@/assets/travel-photos/windy-app.png";
+import OpenSnowImage from "@/assets/travel-photos/opensnow.jpeg";
+import BookingImage from "@/assets/travel-photos/booking.png";
 
 export default {
   name: "TravelGuidance",
@@ -227,16 +234,44 @@ export default {
           appleStoreLink:
             "https://apps.apple.com/app/hotels-tonight/id293847562",
         },
-        // name: "Windy.app",
-        //   img: hotelsTonightImage,
-        //   alt: "Windy.App",
-        //   description:
-        //     "Great for last-minute bookings at affordable rates.",
-        //   modalInfo:
-        //     "Hotels Tonight is an excellent app for finding last-minute hotel deals. Simply enter your city and travel dates, and the app will present a selection of affordable hotel rooms to choose from. It’s a reliable option for spontaneous bookings.",
-        //   googlePlayLink: "https://play.google.com/store/search?q=hotels%20tonight&c=apps&hl=en_US",
-        //   appleStoreLink: "https://apps.apple.com/app/hotels-tonight/id293847562",
-        // },
+        {
+          name: "Windy.app",
+          img: windyAppImage,
+          alt: "Windy.App",
+          description: "Wind and weather information for current location.",
+          modalInfo:
+            "Detailed app that gives precise wind data and weather data. Used to scope which areas will be less windy on certain days.",
+          googlePlayLink:
+            "https://play.google.com/store/apps/details?id=co.windyapp.android&pcampaignid=web_share",
+          appleStoreLink:
+            "https://apps.apple.com/us/app/windy-app-windy-weather-map/id997079492",
+        },
+        {
+          name: "OpenSnow",
+          img: OpenSnowImage,
+          alt: "OpenSnow App",
+          description: "Snow and Ski App",
+          modalInfo:
+            "OpenSnow is your trusted source for the most accurate snow forecast, snow report, high-resolution 3D maps, and ski conditions.",
+          googlePlayLink:
+            "https://play.google.com/store/apps/details?id=com.opensnow.android&pcampaignid=web_share",
+          // Iphone or Ipad Only
+          appleStoreLink:
+            "https://apps.apple.com/us/app/opensnow-snow-forecast/id780890907",
+        },
+        {
+          name: "Booking.com",
+          img: BookingImage,
+          alt: "Booking.com App",
+          description: "App used to make reservations.",
+          modalInfo:
+            "Save on your next trip with the Booking.com app! Find great hotel or apartment deals and book in just a few minutes. You can also book flights, rental cars, and more through the app.",
+          googlePlayLink:
+            "https://play.google.com/store/apps/details?id=com.booking&pcampaignid=web_share",
+          // Iphone or Ipad Only
+          appleStoreLink:
+            "https://apps.apple.com/us/app/booking-com-hotels-travel/id367003839?ppid=6283143b-2049-4a5b-9b5a-2aa95f71e6e1",
+        },
       ],
       selectedApp: null, // Tracks the currently selected app for the modal
     };
