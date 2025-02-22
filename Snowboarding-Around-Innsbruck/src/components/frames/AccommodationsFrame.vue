@@ -17,6 +17,19 @@
       <strong>Location:</strong> {{ accommodation.location }}
     </p>
 
+    <!-- Google Maps Embed -->
+    <div v-if="accommodation.map" class="mb-4">
+      <iframe
+        :src="accommodation.map"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
     <!-- Accommodation Details -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <p v-if="accommodation.pricing" class="text-lg text-gray-800">
@@ -67,5 +80,13 @@ img {
   max-height: 200px;
   max-width: 300px;
   object-fit: cover;
+}
+
+/* Map Styling */
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border-radius: 8px;
 }
 </style>

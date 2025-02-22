@@ -54,10 +54,31 @@
       </div>
 
       <!-- need to make a hyperlink -->
-      <p class="text-xl text-center text-gray-800 mb-6">
-        {{ resortData.website }}
+      <p class="text-xl text-center text-gray-800 mt-6">
+        <a
+          v-if="resortData.website"
+          :href="resortData.website"
+          target="_blank"
+          class="text-blue-600 hover:underline"
+        >
+          Visit Website
+        </a>
       </p>
+
+      <div v-if="resortData.map" class="mb-4">
+        <iframe
+          :src="resortData.map"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
+
+    <a href="javascript:history.back()">Back to previous page</a>
 
     <!-- Modal -->
     <div
@@ -111,5 +132,13 @@ export default {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+/* Map Styling */
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border-radius: 8px;
 }
 </style>

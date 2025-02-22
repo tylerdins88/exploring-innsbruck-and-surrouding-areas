@@ -23,7 +23,8 @@ export default {
 		openinghours: "Patscherkofelbahn Daily from 8:30 a.m. to 4:00 p.m.",
 		nightski:
 			"Evening skiing every Tuesday and Thursday until 6:30 p.m. on the Heiligwasser piste.",
-		website: "https://www.patscherkofelbahn.at"
+		website: "https://www.patscherkofelbahn.at",
+		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.715088788407!2d11.42410387657558!3d47.22215681444587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d69a1be2510a9%3A0x19778e792b3aa2d0!2sPatscherkofelbahn!5e0!3m2!1sen!2sat!4v1740215988164!5m2!1sen!2sat"
 	},
 	Alpbachtal: {
 		name: "Alpbachtal",
@@ -35,7 +36,8 @@ export default {
 		price: "66 Euro",
 		openinghours: "Ski Juwel is open daily from 8:30 a.m. to 4:00 p.m. A few lifts will run to 4:15 p.m.",
 		nightski: "The Reither Kogel lift offers night skiing from 18:30 to 21:15 on Thursday and Fridays. This is from Dec 26th, 2024 to Feb 28th, 2025.",
-		website: "https://www.skijuwel.com/en"
+		website: "https://www.skijuwel.com/en",
+		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5527.7500484477305!2d11.916378372785395!3d47.397351032366075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4777d320ec96c9dd%3A0x886c7275e09201f8!2sSki%20Juwel%20Alpbachtal%20Wildsch%C3%B6nau!5e0!3m2!1sen!2sat!4v1740217951157!5m2!1sen!2sat"
 	},
 	IschglSilvrettaArena: {
 		name: "Ischgl - Silvretta Arena",
@@ -47,7 +49,8 @@ export default {
 		price: "76 Euro",
 		openinghours: "Ischgl Daily from 8:30 a.m. to 4:00 p.m.",
 		nightski: "Ischgl does not offer Night Ski",
-		website: "https://www.ischgl.com/en/winter"
+		website: "https://www.ischgl.com/en/winter",
+		map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.5387090372674!2d10.285569576565804!3d47.010029828982596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cb4baf69acb6f%3A0x34abc5e5b39d9602!2sA1%20Silvrettabahn!5e0!3m2!1sen!2sat!4v1740217999406!5m2!1sen!2sat"
 	},
 	Glungezer: {
 		name: "Glungezer",
@@ -59,7 +62,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "https://www.glungezerbahn.at/en/"
+		website: "https://www.glungezerbahn.at/en/",
+		map: ""
 	},
 	Hochfugen: {
 		name: "Hochfugen",
@@ -71,7 +75,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "Need to Add Website",
+		map: ""
 	},
 	ZillertalArenaGerlos: {
 		name: "Zillertal Arena / Gerlos",
@@ -83,7 +88,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "https://www.zillertalarena.com/en/winter/"
+		website: "https://www.zillertalarena.com/en/winter/",
+		map: ""
 	},
 	Schlick: {
 		name: "Schlick 2000",
@@ -95,7 +101,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "https://www.stubai.at/en/skiing-resorts/schlick2000/"
+		website: "https://www.stubai.at/en/skiing-resorts/schlick2000/",
+		map: ""
 	},
 	StubairGletscher: {
 		name: "Stubaier Gletscher",
@@ -107,7 +114,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "https://www.stubaier-gletscher.com/en/"
+		website: "https://www.stubaier-gletscher.com/en/",
+		map: ""
 	},
 	Seefeld: {
 		name: "Need Resort Name",
@@ -119,7 +127,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "Need to Add Website",
+		map: ""
 	},
 	Axams: {
 		name: "Need Resort Name",
@@ -131,7 +140,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "Need to Add Website",
+		map: ""
 	},
 	Nordkette: {
 		name: "Need Resort Name",
@@ -143,7 +153,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "Need to Add Website",
+		map: ""
 	},
 	MayrhofenTux: {
 		name: "Need Resort Name",
@@ -155,7 +166,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "Need to Add Website",
+		map: ""
 	},
 	Soeldon: {
 		name: "Need Resort Name",
@@ -167,7 +179,8 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "https://www.soelden.com/en"
+		website: "https://www.soelden.com/en",
+		map: ""
 	},
 	NameNeeded: {
 		name: "Need Resort Name",
@@ -179,6 +192,7 @@ export default {
 		price: "Need Price Info",
 		openinghours: "Need Opening Hours",
 		nightski: "Need Night Ski",
-		website: "Need to Add Website"
+		website: "Need to Add Website",
+		map: ""
 	}
 };

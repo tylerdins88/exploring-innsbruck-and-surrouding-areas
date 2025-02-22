@@ -7,9 +7,10 @@
       <p class="prose max-w-none text-gray-700 font-bold">
         Add tips for understanding what to do. Consider adding phone plan
         information? Add in somewhere to have euro coins to use public
-        bathrooms. Grocery stores not open sunday, except main bus station. Talk
-        about lockers at bus stations or contacting places about luggage
-        storage.
+        bathrooms. Grocery stores not open sunday, except main bus station.
+        Discuss most things closing at 7 pm / 19:00. Talk about lockers at bus
+        stations or contacting places about luggage storage if arriving early.
+        Discuss the sauna culture.
       </p>
       <p>
         Welcome to the Travel Guidance page. I will explain the travel apps I
@@ -19,7 +20,7 @@
         stations with tips for using the bus system.
       </p>
       <p class="prose max-w-none text-gray-700 font-bold">
-        First thing I will describe is recommended apps to have for travel:
+        First thing I will describe is recommended apps to have for your trip.
       </p>
     </div>
 
@@ -199,18 +200,6 @@ export default {
           appleStoreLink: "https://apps.apple.com/app/obb-tickets/id123456789",
         },
         {
-          name: "bergfex Ski",
-          img: bergfexAppImage,
-          alt: "bergfex Ski App",
-          description:
-            "Get weather updates, lift information, and maps for snow resorts.",
-          modalInfo:
-            "bergfex Ski is the ultimate app for snow resorts, providing detailed weather information. When you open the app, it displays an overview of your favorite resorts. I recommend searching for the resorts you plan to visit and adding them to your favorites. The overview includes webcam views and a five-day weather forecast. Clicking on an individual resort provides additional details such as maps, lift statuses, weather updates, webcams, and more to help plan your trip. You can also view the current day’s ticket prices, which may vary depending on the season.",
-          googlePlayLink:
-            "https://play.google.com/store/apps/details?id=com.bergfex.mobile.android&hl=en_US",
-          appleStoreLink: "https://apps.apple.com/app/bergfex-ski/id987654321",
-        },
-        {
           name: "Omio",
           img: omioAppImage,
           alt: "Omio App",
@@ -221,6 +210,19 @@ export default {
           googlePlayLink:
             "https://play.google.com/store/search?q=omio&c=apps&hl=en_US",
           appleStoreLink: "https://apps.apple.com/app/omio/id192837465",
+        },
+        {
+          name: "Booking.com",
+          img: BookingImage,
+          alt: "Booking.com App",
+          description: "App used to make reservations.",
+          modalInfo:
+            "Save on your next trip with the Booking.com app! Find great hotel or apartment deals and book in just a few minutes. You can also book flights, rental cars, and more through the app.",
+          googlePlayLink:
+            "https://play.google.com/store/apps/details?id=com.booking&pcampaignid=web_share",
+          // Iphone or Ipad Only
+          appleStoreLink:
+            "https://apps.apple.com/us/app/booking-com-hotels-travel/id367003839?ppid=6283143b-2049-4a5b-9b5a-2aa95f71e6e1",
         },
         {
           name: "Hotels Tonight",
@@ -235,16 +237,16 @@ export default {
             "https://apps.apple.com/app/hotels-tonight/id293847562",
         },
         {
-          name: "Windy.app",
-          img: windyAppImage,
-          alt: "Windy.App",
-          description: "Wind and weather information for current location.",
+          name: "bergfex Ski",
+          img: bergfexAppImage,
+          alt: "bergfex Ski App",
+          description:
+            "Get weather updates, lift information, and maps for snow resorts.",
           modalInfo:
-            "Detailed app that gives precise wind data and weather data. Used to scope which areas will be less windy on certain days.",
+            "bergfex Ski is the ultimate app for snow resorts, providing detailed weather information. When you open the app, it displays an overview of your favorite resorts. I recommend searching for the resorts you plan to visit and adding them to your favorites. The overview includes webcam views and a five-day weather forecast. Clicking on an individual resort provides additional details such as maps, lift statuses, weather updates, webcams, and more to help plan your trip. You can also view the current day’s ticket prices, which may vary depending on the season.",
           googlePlayLink:
-            "https://play.google.com/store/apps/details?id=co.windyapp.android&pcampaignid=web_share",
-          appleStoreLink:
-            "https://apps.apple.com/us/app/windy-app-windy-weather-map/id997079492",
+            "https://play.google.com/store/apps/details?id=com.bergfex.mobile.android&hl=en_US",
+          appleStoreLink: "https://apps.apple.com/app/bergfex-ski/id987654321",
         },
         {
           name: "OpenSnow",
@@ -260,17 +262,16 @@ export default {
             "https://apps.apple.com/us/app/opensnow-snow-forecast/id780890907",
         },
         {
-          name: "Booking.com",
-          img: BookingImage,
-          alt: "Booking.com App",
-          description: "App used to make reservations.",
+          name: "Windy.app",
+          img: windyAppImage,
+          alt: "Windy.App",
+          description: "Wind and weather information for current location.",
           modalInfo:
-            "Save on your next trip with the Booking.com app! Find great hotel or apartment deals and book in just a few minutes. You can also book flights, rental cars, and more through the app.",
+            "Detailed app that gives precise wind data and weather data. Used to scope which areas will be less windy on certain days.",
           googlePlayLink:
-            "https://play.google.com/store/apps/details?id=com.booking&pcampaignid=web_share",
-          // Iphone or Ipad Only
+            "https://play.google.com/store/apps/details?id=co.windyapp.android&pcampaignid=web_share",
           appleStoreLink:
-            "https://apps.apple.com/us/app/booking-com-hotels-travel/id367003839?ppid=6283143b-2049-4a5b-9b5a-2aa95f71e6e1",
+            "https://apps.apple.com/us/app/windy-app-windy-weather-map/id997079492",
         },
       ],
       selectedApp: null, // Tracks the currently selected app for the modal
