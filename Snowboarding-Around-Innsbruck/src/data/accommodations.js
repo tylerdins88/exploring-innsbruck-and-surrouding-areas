@@ -62,7 +62,7 @@ export default {
         parking: "On-site parking is Available",
         pricing: "Average 150 Euro per night",
         checkinout: "Check-In 12:00 Check-Out 10;00",
-        perks: "",
+        perks: "Perfect little spot outside of Ischgl.",
         cons: ""
     },
     Name: {

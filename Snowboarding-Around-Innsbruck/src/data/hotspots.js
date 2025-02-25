@@ -269,14 +269,46 @@ export default {
         location: "Seefeld",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.2503783851216!2d11.187930999999997!3d47.328981299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d110e812b620b%3A0x52b131077b7578dd!2sRestaurant%20S%C3%BCdtiroler%20Stube!5e0!3m2!1sen!2sat!4v1740167588675!5m2!1sen!2sat"
     },
-    Name: {
-        name: "",
-        description: "",
-        website: "",
-        operatinghours: "",
-        reservation: "",
-        type: "",
-        location: "",
-        map: ""
+    Kaffeehaus: {
+        name: "Kaffeehaus Viktor Seefeld",
+        description: "For us, coffee enjoyment means pure quality of life and the opportunity to linger in the moment. Together with Elisabeth Peintner and the Wildkaffee roastery, we have developed the Elisabeth No. 1 coffee blend, which consists of coffees from three different countries (Guatemala, Brazil, El Salvador). The coffee beans ripen at 1,100 to 1,500 m above sea level, contain little caffeine and are easy to digest.",
+        website: "https://www.viktor-kaffeehaus.at/",
+        operatinghours: "Monday - Sunday 09:00-18:00",
+        reservation: "No",
+        type: "Coffee and Bakery",
+        location: "Seefeld",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d663.169136154704!2d11.188308186618462!3d47.32905968891015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d110ebf6abbfd%3A0x6ea6b1b309edd20!2sKaffeehaus%20Viktor%20Seefeld!5e0!3m2!1sen!2sat!4v1740501390201!5m2!1sen!2sat"
     },
+    Fohre: {
+        name: "Restaurant Föhre",
+        description: "A highlight at Hotel Föhre is the in-house restaurant with gourmet cuisine, where you will be spoiled with traditional and international delicacies as well as delicious pizzas. To top it off of course a delicious dessert shouldn’t be missing – our dessert menu offers a large selection for all dessert lovers.",
+        website: "https://foehre.at/en/restaurant-pizzeria/",
+        operatinghours: "Monday - Sunday 16:00-22:00",
+        reservation: "Yes but walk-in welcome",
+        type: "Pizza and Authentic Austrian cuisine",
+        location: "Mathon / Ischgl",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5443.247900603638!2d10.240395047569919!3d46.98872035316818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47834cd30de6c2ab%3A0x66f031c639cd1be1!2sRestaurant%20F%C3%B6hre!5e0!3m2!1sen!2sat!4v1740503583569!5m2!1sen!2sat"
+    },
+    RocksGrill: {
+        name: "Rocks Grill Ischgl",
+        description: "The food always comes to the table quickly and deliciously. So everyone who wants to eat a quick, tasty snack in a relaxed atmosphere meets at the Rocks Grill.",
+        website: "http://www.rocks-grill.com/",
+        operatinghours: "Monday - Sunday 11:30-02:00",
+        reservation: "No",
+        type: "Kebab and Burger Stand",
+        location: "Ischgl",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.401610539373!2d10.290848976565915!3d47.012721328798605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cb49d7fd93707%3A0x634ec2485bb946a3!2sRocks%20Grill%20Ischgl!5e0!3m2!1sen!2sat!4v1740504389250!5m2!1sen!2sat"
+    },
+
+    // Save Code here for more places
+    // Name: {
+    //     name: "",
+    //     description: "",
+    //     website: "",
+    //     operatinghours: "",
+    //     reservation: "",
+    //     type: "",
+    //     location: "",
+    //     map: ""
+    // },
 };
