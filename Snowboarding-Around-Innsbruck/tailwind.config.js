@@ -1,4 +1,5 @@
 // tailwind.config.js
+// eslint-disable-next-line no-undef
 module.exports = {
 	content: [
 		"./index.html",
