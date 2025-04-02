@@ -19,6 +19,14 @@
 
 <script setup>
 import CustomNavbar from "@/components/Navbar.vue";
+import { watch } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+
+watch(route, () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 </script>
 
 <style scoped>
